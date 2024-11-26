@@ -699,8 +699,9 @@ footer.sticky-bottom {
       }
 
       .abbr {
-        height: 2rem;
+        height: auto;
         margin-bottom: 0.5rem;
+        display: flex; /* Use flexbox to manage layout */
         flex-direction: column;
 
         abbr {
