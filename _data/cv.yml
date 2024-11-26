@@ -24,9 +24,10 @@
       year: 2023-now
       description:
         - Advised by Dr. <a href="https://scholar.google.com.vn/citations?user=PnwSuNMAAAAJ">Toan Tran</a>
+        - Advised by Dr. <a href="https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl/">Anh Tran</a>
     - title: Student Research Assistant
       institution: Data Science Lab, HUST
-      year: 2023-now
+      year: 2021-2023
       description:
         - Advised by Assoc. Prof. <a href="https://users.soict.hust.edu.vn/khoattq/">Khoat Than</a>
 
@@ -52,11 +53,12 @@
     - title: Diffusion Models and its applications
       items:
         - Diffusion Probabilistic Models
-        - Personalized text-to-image Diffusion Models
+        - Personalized Text-to-Image Diffusion Models
         - Score distillation for Diffusion Models
     - title: Trustworthy AI
       items:
-        - Detection and mitigation of memorization in text-to-image Diffusion Models
+        - Detection and mitigation of memorization in Text-to-Image Diffusion Models
+        - Defense against Membership Inference Attacks in Diffusion Models
 
 - title: Other Interests
   type: list
