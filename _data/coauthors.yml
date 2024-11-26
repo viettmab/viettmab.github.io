@@ -1,39 +1,17 @@
-"Tran":
-  - firstname: ["Toan"]
+---
+Tran:
+  - firstname:
+      - Toan
     url: https://scholar.google.com.vn/citations?user=PnwSuNMAAAAJ
-
-"Than":
-  - firstname: ["Khoat"]
+Than:
+  - firstname:
+      - Khoat
     url: https://users.soict.hust.edu.vn/khoattq/
-
-"Vu":
-  - firstname: ["Giang"]
+Vu:
+  - firstname:
+      - Giang
     url: https://ginlov.github.io/
-
-"Nguyen":
-  - firstname: ["Thanh Tung"]
+Nguyen:
+  - firstname:
+      - Thanh Tung
     url: https://github.com/tungnthust
-
-# "Tran":
-#   - firstname: ["Anh"]
-#     url: https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl/
-
-# "Tran":
-#   - firstname: ["Bao"]
-#     url: https://github.com/btr13010
-
-"Dao":
-  - firstname: ["Trung"]
-    url: https://trung-dt.com/
-
-# "Nguyen":
-#   - firstname: ["Duc Anh"]
-#     url: https://github.com/aengusng8
-
-# "Nguyen":
-#   - firstname: ["Khoi"]
-#     url: https://www.khoinguyen.org/
-
-"Pham":
-  - firstname: ["Cuong"]
-    url: https://sites.google.com/view/cuongpham/home

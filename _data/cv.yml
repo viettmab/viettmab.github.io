@@ -1,3 +1,4 @@
+---
 - title: General Information
   type: map
   contents:
@@ -5,17 +6,15 @@
       value: Viet Nguyen
     - name: Languages
       value: English, Vietnamese
-
 - title: Education
   type: time_table
   contents:
     - title: Engineer in Information Technology
-      institution: Hanoi Univeristy of Science and Technology (HUST), Hanoi, Vietnam
+      institution: Hanoi University of Science and Technology (HUST), Hanoi, Vietnam
       year: 2019-2023
       description:
         - Excellence Degree (Highest CPA)
         - Thesis "Some improvements for Diffusion Probabilistic Models"
-
 - title: Experience
   type: time_table
   contents:
@@ -23,14 +22,12 @@
       institution: VinAI Research
       year: 2023-now
       description:
-        - Advised by Dr. <a href="https://scholar.google.com.vn/citations?user=PnwSuNMAAAAJ">Toan Tran</a>
-        - Advised by Dr. <a href="https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl/">Anh Tran</a>
+        - Advised by Dr. <a href="https://scholar.google.com.vn/citations?user=PnwSuNMAAAAJ">Toan Tran</a> and Dr. <a href="https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl/">Anh Tran</a>
     - title: Student Research Assistant
       institution: Data Science Lab, HUST
       year: 2021-2023
       description:
         - Advised by Assoc. Prof. <a href="https://users.soict.hust.edu.vn/khoattq/">Khoat Than</a>
-
 - title: Honors and Awards
   type: time_table
   contents:
@@ -45,8 +42,7 @@
         - Excellence Scholarship for all the academic semesters - Hanoi University of Science and Technology
     - year: 2020
       items:
-        - Runner-up position at the Developer Circles Vietnam Innovation Challenge in Hanoi 
-
+        - Runner-up position at the Developer Circles Vietnam Innovation Challenge in Hanoi
 - title: Academic Interests
   type: nested_list
   contents:
@@ -59,7 +55,6 @@
       items:
         - Detection and mitigation of memorization in Text-to-Image Diffusion Models
         - Defense against Membership Inference Attacks in Diffusion Models
-
 - title: Other Interests
   type: list
   contents:
