@@ -1,23 +1,5 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
-let updateThemeIcons = (theme) => {
-  const systemIcon = document.getElementById("light-toggle-system");
-  const darkIcon = document.getElementById("light-toggle-dark");
-  const lightIcon = document.getElementById("light-toggle-light");
 
-  // Hide all icons initially
-  systemIcon.style.display = "none";
-  darkIcon.style.display = "none";
-  lightIcon.style.display = "none";
-
-  // Show the relevant icon based on the current theme
-  if (theme === "system") {
-    systemIcon.style.display = "inline";
-  } else if (theme === "dark") {
-    darkIcon.style.display = "inline";
-  } else if (theme === "light") {
-    lightIcon.style.display = "inline";
-  }
-};
 // Toggle through light, dark, and system theme settings.
 let toggleThemeSetting = () => {
   let themeSetting = determineThemeSetting();
@@ -37,9 +19,6 @@ let setThemeSetting = (themeSetting) => {
   document.documentElement.setAttribute("data-theme-setting", themeSetting);
 
   applyTheme();
-
-  // Update icons based on the new theme setting
-  updateThemeIcons(themeSetting);
 };
 
 // Apply the computed dark or light theme to the website.
@@ -256,9 +235,6 @@ let initTheme = () => {
   let themeSetting = determineThemeSetting();
 
   setThemeSetting(themeSetting);
-
-  // Initialize the icons for the current theme
-  updateThemeIcons(themeSetting);
 
   // Add event listener to the theme toggle button.
   document.addEventListener("DOMContentLoaded", function () {

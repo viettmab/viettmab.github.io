@@ -701,6 +701,7 @@ footer.sticky-bottom {
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
+        flex-direction: column;
 
         abbr {
           display: inline-block;
@@ -722,6 +723,7 @@ footer.sticky-bottom {
           border: 1px solid var(--global-theme-color);
           padding-left: 0.75rem;
           padding-right: 0.75rem;
+          margin-top: 0.5rem; /* Add some spacing below the abbr */
         }
       }
 
