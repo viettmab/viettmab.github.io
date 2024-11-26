@@ -1,6 +1,10 @@
 **/*.map
 **/*.min.css
 **/*.min.js
+**/*.yml
+**/*.md
+**/*.scss
+**/*.liquid
 assets/css/main.scss
 assets/js/search-data.js
 assets/js/distillpub/template.v2.js
