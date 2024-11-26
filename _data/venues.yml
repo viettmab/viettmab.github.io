@@ -21,3 +21,6 @@
 "AAAI":
   url: https://aaai.org/
   color: "#636C4E"
+
+"Preprint":
+  color: "#ffdddd"

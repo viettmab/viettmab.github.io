@@ -1,17 +1,16 @@
 ---
 ---
 @article{tran2024dualmodeldefensesafeguardingdiffusion,
+  abbr        = {Preprint},
   title       = {Dual-Model Defense: Safeguarding Diffusion Models from Membership Inference Attacks through Disjoint Data Splitting},
   author      = {Tran*, Bao, Nguyen*, Viet and Tran, Anh and Tran, Toan},
   abstract    = {Diffusion models have demonstrated remarkable capabilities in image synthesis, but their recently proven vulnerability to Membership Inference Attacks (MIAs) poses a critical privacy concern. This paper introduces two novel and efficient approaches (DualMD and DistillMD) to protect diffusion models against MIAs while maintaining high utility. Both methods are based on training two separate diffusion models on disjoint subsets of the original dataset. DualMD then employs a private inference pipeline that utilizes both models. This strategy significantly reduces the risk of black-box MIAs by limiting the information any single model contains about individual training samples. The dual models can also generate "soft targets" to train a private student model in DistillMD, enhancing privacy guarantees against all types of MIAs. Extensive evaluations of DualMD and DistillMD against state-of-the-art MIAs across various datasets in white-box and black-box settings demonstrate their effectiveness in substantially reducing MIA success rates while preserving competitive image generation performance. Notably, our experiments reveal that DistillMD not only defends against MIAs but also mitigates model memorization, indicating that both vulnerabilities stem from overfitting and can be addressed simultaneously with our unified approach.},
   journal     = {arXiv preprint arXiv:2410.16657},
   arxiv       = {2410.16657},
   year        = {2024},
-  url         = {https://arxiv.org/abs/2410.16657},
   pdf         = {https://arxiv.org/pdf/2410.16657.pdf},
   selected    = {true},
-  published   = {false},
-  bibtex_show = {true},
+  published   = {true},
 }
 
 @article{nguyen2024inference,
@@ -27,5 +26,5 @@
   pdf={https://arxiv.org/pdf/2312.12431.pdf},
   code={https://github.com/VinAIResearch/SA-DPM},
   selected={true},
-  published={true}
+  published={true},
 }

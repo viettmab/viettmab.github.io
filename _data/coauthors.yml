@@ -14,25 +14,25 @@
   - firstname: ["Thanh Tung"]
     url: https://github.com/tungnthust
 
-"Tran":
-  - firstname: ["Anh"]
-    url: https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl/
+# "Tran":
+#   - firstname: ["Anh"]
+#     url: https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl/
 
-"Tran":
-  - firstname: ["Bao"]
-    url: https://github.com/btr13010
+# "Tran":
+#   - firstname: ["Bao"]
+#     url: https://github.com/btr13010
 
 "Dao":
   - firstname: ["Trung"]
     url: https://trung-dt.com/
 
-"Nguyen":
-  - firstname: ["Duc Anh"]
-    url: https://github.com/aengusng8
+# "Nguyen":
+#   - firstname: ["Duc Anh"]
+#     url: https://github.com/aengusng8
 
-"Nguyen":
-  - firstname: ["Khoi"]
-    url: https://www.khoinguyen.org/
+# "Nguyen":
+#   - firstname: ["Khoi"]
+#     url: https://www.khoinguyen.org/
 
 "Pham":
   - firstname: ["Cuong"]
