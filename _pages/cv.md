@@ -7,5 +7,5 @@ nav_order: 3
 #   sidebar: left
 # description: 
 # toc:
-# cv_pdf: example_pdf.pdf
+cv_pdf: CV.pdf
 ---
