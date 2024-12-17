@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:sparkles: Paper **On Inference Stability for Diffusion Models** is accepted as an oral presentation at **AAAI 2024**.
+:sparkles: <span style="color:black">Paper **On Inference Stability for Diffusion Models** is accepted as an oral presentation at **AAAI 2024**.</span>.
