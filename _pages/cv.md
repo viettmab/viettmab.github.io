@@ -5,8 +5,8 @@ title: cv
 nav: true
 nav_order: 3
 #   sidebar: left
-description: "My CV is available for download in the attachment provided."
+description: "Last updated: December 09, 2024"
 # toc:
 cv_pdf: CV.pdf
-date: 2024-12-12
+# date: 2024-12-12
 ---
