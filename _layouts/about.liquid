@@ -40,6 +40,15 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- Embed ClustrMaps (Hidden) -->
+    <div id="hidden-clustrmaps">
+      <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=6rLIJJf62quhiJeuyyqj0diIyTN--OdHga--HOph2fk&cl=ffffff&w=a"></script>
+    </div>
+    <style>
+      #hidden-clustrmaps {
+        display: none;
+      }
+    </style>
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
